@@ -1,0 +1,37 @@
+.socials {
+    width: 20%;
+}
+
+.socials__title {
+    font-size: 14px;
+    margin-bottom: 6px;
+}
+
+.socials__item {
+    display: inline-block;
+    margin-right: 6px;
+}
+
+.socials__item:last-child {
+    margin-right: 0;
+}
+
+.socials__link {
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    background-color: #d0d0d0;
+    border-radius: 50%;
+    position: relative;
+}
+
+.socials__link:hover {
+    background-color: #f89513;
+}
+
+.socials__icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

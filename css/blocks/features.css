@@ -1,0 +1,111 @@
+.features {
+    background-color: #1a1b1c;
+    padding: 49px 0 98px 0;
+    color: #fff;
+    margin-bottom: 53px;
+}
+
+
+.features__content {
+    text-align: center;
+}
+
+.features__title {
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.features__desc-text {
+    margin-bottom: 3px;
+    padding: 0px 31px;
+}
+
+.features__item {
+    display: inline-block;
+    width: 25%;
+    text-align: center;
+}
+
+.features__item:last-child {
+    margin-right: 0;
+}
+
+.features__icon {
+    display: inline-block;
+    width: 68px;
+    height: 68px;
+    background-color: #e1942a;
+    border-radius: 50%;
+    position: relative;
+    margin-bottom: 34px;
+}
+
+.features__icon--flower:before {
+    content: "";
+    position: absolute;
+    width: 27px;
+    height: 31px;
+    background: url(../../images/main_page/features_icons/flower.png) center center / contain no-repeat;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.features__icon--star:before {
+    content: "";
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    background: url(../../images/main_page/features_icons/mark-as-favorite-star.png) center center / contain no-repeat;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.features__icon--palette:before {
+    content: "";
+    position: absolute;
+    width: 28px;
+    height: 29px;
+    background: url(../../images/main_page/features_icons/painter-palette.png) center center / contain no-repeat;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.features__desc {
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.features__desc-list {
+    text-align: left;
+    margin-left: 34px;
+}
+
+.features__desc-item:before {
+    content: "";
+    height: 4px;
+    width: 4px;
+    border-radius: 50%;
+    background-color: #fff;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 19px;
+}
+
+.features__desc-item {
+    margin-bottom: 6px;
+}
+
+.features__desc-item:last-child {
+    margin-bottom: 0;
+}
+
+.features__subtitle {
+    font-size: 11px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 2.4px;
+    margin-bottom: 19px;
+}

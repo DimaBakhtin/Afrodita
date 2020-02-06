@@ -1,0 +1,21 @@
+.footer {
+    min-height: 77px;
+    background-color: #131415;
+    padding: 7px 0;
+    color: #fff;
+}
+
+.footer .logo {
+    width: 52%;
+    text-align: center;
+}
+
+.footer__copywrite-text, .socials {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.footer__copywrite-text {
+    width: 24%;
+    font-size: 14px;
+}

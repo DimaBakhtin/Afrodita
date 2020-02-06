@@ -1,0 +1,82 @@
+.menu {
+    display: inline-block;
+    text-align: center;
+    width: 64%;
+}
+
+.menu__item {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.menu__item:last-child {
+    margin-right: 0;
+}
+
+.menu__link {
+    display: inline-block;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    vertical-align: middle;
+}
+
+.menu__link:hover {
+    color: #f89513;
+}
+
+.menu__link:before {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    background: center center / contain no-repeat;
+    margin-right: 14px;
+}
+
+.menu__link--main:before {
+    background-image: url(../../images/nav_icons/main_icon.png);
+    height: 14px;
+    width: 19px;
+}
+
+.menu__link--star:before {
+    background-image: url(../../images/nav_icons/feed_icon.png);
+    height: 18px;
+    width: 20px;
+}
+
+.menu__link--wallet:before {
+    background-image: url(../../images/nav_icons/service_icon.png);
+    height: 14px;
+    width: 19px;
+}
+
+.menu__link--main:hover:before {
+    background-image: url(../../images/nav_icons/main_icon-hover.png);
+}
+
+.menu__link--star:hover:before {
+    background-image: url(../../images/nav_icons/feed_icon-hover.png);
+}
+
+.menu__link--wallet:hover:before {
+    background-image: url(../../images/nav_icons/service_icon-hover.png);
+}
+
+.menu__item--active .menu__link--main:before {
+    background-image: url(../../images/nav_icons/main_icon-hover.png);
+}
+
+.menu__item--active .menu__link--star:before {
+    background-image: url(../../images/nav_icons/feed_icon-hover.png);
+}
+
+.menu__item--active .menu__link--wallet:before {
+    background-image: url(../../images/nav_icons/service_icon-hover.png);
+}
+
+.menu__item--active .menu__link {
+    color: #f89513;
+}

@@ -1,0 +1,20 @@
+.contacts {
+    display: inline-block;
+    width: 17%;
+    font-weight: 700;
+    text-align: right;
+    vertical-align: middle;
+}
+
+.contacts__phone {
+    color: #ffffff;
+    font-size: 21px;    
+    text-transform: uppercase;
+}
+
+.contacts__graph {
+    color: #f89513;
+    font-size: 14px;
+    text-decoration: underline;
+    
+}
