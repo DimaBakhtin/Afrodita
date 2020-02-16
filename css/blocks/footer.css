@@ -1,21 +1,27 @@
 .footer {
     min-height: 77px;
     background-color: #131415;
-    padding: 7px 0;
+    padding: 11px 0;
     color: #fff;
 }
 
 .footer .logo {
-    width: 52%;
-    text-align: center;
+    margin-right: 77px;
 }
 
-.footer__copywrite-text, .socials {
-    display: inline-block;
-    vertical-align: middle;
+.footer__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .footer__copywrite-text {
-    width: 24%;
     font-size: 14px;
+    width: 24%;
+    font-weight: 300;
+    line-height: 18px;
+}
+
+.footer__copywrite-text span {
+    font-weight: 700;
 }

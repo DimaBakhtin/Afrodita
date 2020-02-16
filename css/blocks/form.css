@@ -1,0 +1,136 @@
+.form {
+    height: 100%;
+    width: 100%;
+    margin-bottom: 62px;
+}
+
+.form__wrapper {
+    width: 700px;
+    background-color: #f5f5f5;
+    padding: 39px 67px 49px;
+    margin: 0 auto;
+}
+
+.form__title {
+    color: #221f1f;
+    text-align: left;
+    margin-bottom: 19px;
+    text-transform: none;
+    letter-spacing: 0;
+}
+
+.form__row {
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.form__row:last-child {
+    margin-bottom: 0;
+}
+
+.form__subtitle {
+    color: #221f1f;
+    font-size: 14px;
+    font-weight: 300;
+    display: block;
+    margin-bottom: 3px;
+}
+
+.form__label {
+    margin-right: 23px;
+    flex: 1;
+}
+
+.form__label:last-child {
+    margin-right: 0px;
+}
+
+.form__input {
+    outline: none;
+    border: 1px solid transparent;
+    color: #221f1f;
+    font-size: 14px;
+    font-weight: 300;
+    padding: 14px 10px;
+    width: 100%;
+    border-radius: 3px;
+}
+
+.form__input:focus {
+    border-color: #f89513;
+}
+
+.form__textarea {
+    resize: none;
+    min-height: 90px;
+}
+
+.form__radio, .form__button {
+    flex: 1;
+}
+
+.form__button {
+    text-align: right;
+}
+
+.form__radio-label {
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.form__radio-label:last-child {
+    margin-right: 0;
+}
+
+.form__radio-text {
+    color: #221f1f;
+    font-size: 14px;
+    font-weight: 300;
+    display: inline-block;
+}
+
+.form__radio-input {
+    display: none;
+}
+
+.form__radio-fake {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #c9c9c9;
+    background-color: #ffffff;
+    border-radius: 50%;
+    position: relative;
+}
+
+.form__radio-fake:after {
+    content: "";
+    display: inline-block;
+    width: 0;
+    height: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    background-color: #f89513;
+}
+
+.form__radio-input:checked + .form__radio-fake {
+    border-color: #f89513;
+}
+
+.form__radio-input:checked + .form__radio-fake:after {
+    height: 8px;
+    width: 8px;
+}
+
+.form__radio-wrap {
+    display: flex;
+    margin-top: 10px;
+}
+
+.form__radio-text {
+    margin-left: 5px;
+}

@@ -1,0 +1,27 @@
+.text-banner {
+    background-color: #131415;
+    margin-bottom: 61px;
+}
+
+.text-banner__desc {
+    font-size: 18px;
+    font-weight: 300;
+    color: #fff;
+    line-height: 30px;
+    width: 60%;
+}
+
+.text-banner__desc span {
+    color: #f89513;
+    font-weight: 700;
+}
+
+.text-banner__img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 171px;
+    width: 100%;
+    background: url(../../images/reviews__page/pattern.png) center center / cover no-repeat;
+}
+

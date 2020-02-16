@@ -1,14 +1,17 @@
 .pagination {
-    text-align: center;
+    justify-content: center;
+    display: flex;
+    margin-bottom: 70px;
+    margin-right: 9px;
 }
 
-.pagination__display, .pagination__btns {
-    display: inline-block;
+.pagination__list {
+    display: flex;
+    align-items: center;
 }
 
-.pagination__item {
-    display: inline-block;
-    margin-right: 14px;
+.pagination__item { 
+    margin-right: 17px;
 }
 
 .pagination__item:last-child {
@@ -16,15 +19,14 @@
 }
 
 .pagination__display, .pagination__list {
-    font-family: 'roboto';
+    font-family: "Roboto";
     font-size: 14px;
 }
 
 .pagination__display {
-    margin-right: 30px;
+    margin-right: 27px;
     color: #656464;
     font-weight: 300;
-    margin-right: 17px;
 }
 
 .pagination__list {
@@ -35,6 +37,11 @@
 .pagination__link {
     color: #221f1f;
 }
+
+.pagination__link:hover {
+    color: #f89513;
+}
+
 
 .pagination__list:before, .pagination__list:after {
     width: 6px;
@@ -58,12 +65,8 @@
 .pagination__item--active .pagination__link {
     padding: 3px 9px;
     background-color: #27273e;
-    color: #fff;
+    color: #f89513;
     border-radius: 3px;
     margin-right: -11px;
     margin-left: -11px;
-}
-
-.pagination {
-    margin-bottom: 75px;
 }

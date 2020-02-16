@@ -1,5 +1,5 @@
-.socials {
-    width: 20%;
+.socials__list {
+    display: flex;
 }
 
 .socials__title {
@@ -9,7 +9,7 @@
 
 .socials__item {
     display: inline-block;
-    margin-right: 6px;
+    margin-right: 10px;
 }
 
 .socials__item:last-child {
@@ -17,12 +17,13 @@
 }
 
 .socials__link {
-    display: inline-block;
+    display: block;
     height: 20px;
     width: 20px;
     background-color: #d0d0d0;
     border-radius: 50%;
     position: relative;
+    transition: .3s;
 }
 
 .socials__link:hover {
@@ -34,4 +35,9 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+.socials__title {
+    font-weight: 700;
+    font-size: 14px;
 }
